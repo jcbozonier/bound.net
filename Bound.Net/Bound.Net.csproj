@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{30BD89A2-3FC9-4E04-BF66-171FC41BC256}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions.cs" />
-    <Compile Include="Kelly.cs" />
+    <Compile Include="MultiBind.cs" />
     <Compile Include="PartialBinding.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BindingContext.cs" />
