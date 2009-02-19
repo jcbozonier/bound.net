@@ -126,6 +126,8 @@ namespace Bound.Net
                 // always do the 'after' stuff, even if there's no listeners
                 registration.ExecuteAfterActions();
             };
+
+            return registration;
         }
     }
 }
